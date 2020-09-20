@@ -6,10 +6,10 @@
       <div v-if="isLoggedIn" class="horizontal">
         <router-link :to="paths.MAIN_PAGE" class="ui item">Gallery</router-link>
         <router-link :to="paths.UPLOAD_PAGE" class="ui item">Upload</router-link>
-        <a href="#" class="ui item" @click="logout">Logout</a>
+        <a href="#" class="ui item" @click="logout" id="#logout-btn">Logout</a>
       </div>
 
-      <a v-else href="#" class="ui item" @click="login">Login</a>
+      <a v-else href="#" class="ui item" @click="login" id="login-btn">Login</a>
     </div>
   </div>
 </template>
