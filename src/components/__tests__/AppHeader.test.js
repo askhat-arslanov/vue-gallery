@@ -1,7 +1,6 @@
 import { createLocalVue, mount } from '@vue/test-utils'
 import Vuex from 'vuex'
 
-import * as paths from '@/constants/paths'
 import AppHeader from '../AppHeader'
 
 const localVue = createLocalVue()
